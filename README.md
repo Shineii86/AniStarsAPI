@@ -1,4 +1,5 @@
-# 🌟 GitHub Stars & Follows Automation API
+# 🌟 GitHub API
+*(Private Project)*
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Shineii86/AniStarsAPI?color=%23ffcc00&style=flat-square)
 ![GitHub followers](https://img.shields.io/github/followers/Shineii86?label=Follow%20Me&style=social)
@@ -11,46 +12,24 @@
 
 ## 📘 Features
 
-- 🔒 Secured with dynamic `API_KEY` access control
-- ⭐ Star / Unstar public repos
-- 👤 Follow / Unfollow users
-- 🍴 Fork / Unfork repositories
-- 📍 Check fork status per account
-- 📦 List all starred repos & followed users
-- 🧪 Temporary API Keys valid for 5 minutes
-- ⚙️ Token-based multiple GitHub account support
+- [x] 🔒 Secured with dynamic `API_KEY` access control
+- [x] ⭐ Star / Unstar public repos
+- [x] 👤 Follow / Unfollow users
+- [x] 🍴 Fork / Unfork repositories
+- [x] 📍 Check fork status per account
+- [x] 📦 List all starred repos & followed users
+- [x] ⚙️ Token-based multiple GitHub account support
 
 ---
 
 ## 🔐 Security - API Key
 
-There are two types of keys:
-
 ### 🔑 Developer Key (Permanent, Manual)
 
 Manually add in Vercel:
 ```
-API_KEY1 = GH_KGx....
+API_KEY = DEV_KGxNfr7vdLyf857nU7Sv8c0WDk8
 ```
-
-### 🕒 Temporary Key (Expires in 5 Minutes)
-
-Generate using:
-```
-GET /api/generate?dev_key=GH_KGxNfr7vdLyf857nU7Sv8c0WDk8
-```
-
-Returns:
-```json
-{
-  "message": "✅ Temporary API Key created",
-  "api_key": "TEMP_xxxxx",
-  "expires_in": "5 minutes"
-}
-```
-
-Automatically added to Vercel Environment and removed after 5 minutes.
-
 ---
 
 ## 🔗 API Usage
@@ -83,11 +62,6 @@ GET /api/unfork?owner={username}&repo={reponame}&key=API_KEY
 ### 6️⃣ `/api/fork-status` — Check Fork Status
 ```
 GET /api/fork-status?owner={username}&repo={reponame}&key=API_KEY
-```
-
-### 7️⃣ `/api/generate` — Generate Temp API Key
-```
-GET /api/generate?dev_key=YOUR_DEV_KEY
 ```
 
 ---
@@ -131,12 +105,6 @@ Deploy using Vercel:
 > ```
 > TOKEN1 = ghp_...
 > TOKEN2 = ghp_...
-> ```
-> 
-> Add your Vercel token + project ID:
-> ```
-> VERCEL_API_TOKEN = vercel_personal_token
-> VERCEL_PROJECT_ID = project_id_from_vercel
 > ```
 
 ---
