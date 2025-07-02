@@ -6,6 +6,7 @@
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel&style=flat-square)
 ![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green?style=flat-square)
 
+> [!NOTE]
 > Automate GitHub starring, following, forking and more using multiple accounts via a secure, key-based Vercel API.
 
 ---
@@ -111,5 +112,6 @@ Deploy using Vercel:
 
 ## ⚠️ Disclaimer
 
-This project is for **educational and personal use only**. Abusing GitHub APIs may lead to account limitations.
+> [!WARNING]
+> This project is for **educational and personal use only**. Abusing GitHub APIs may lead to account limitations.
 Use responsibly.
