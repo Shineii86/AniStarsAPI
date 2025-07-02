@@ -1,6 +1,6 @@
 # 🌟 GitHub Stars & Follows Automation API
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Shineii86/GithubStars?color=%23ffcc00&style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/Shineii86/AniStarsAPI?color=%23ffcc00&style=flat-square)
 ![GitHub followers](https://img.shields.io/github/followers/Shineii86?label=Follow%20Me&style=social)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel&style=flat-square)
 ![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green?style=flat-square)
@@ -30,14 +30,14 @@ There are two types of keys:
 
 Manually add in Vercel:
 ```
-API_KEY1 = Quinx_KGxNfr7vdLyf857nU7Sv8c0WDk8_DEV
+API_KEY1 = GH_KGx....
 ```
 
 ### 🕒 Temporary Key (Expires in 5 Minutes)
 
 Generate using:
 ```
-GET /api/generate?dev_key=Quinx_KGxNfr7vdLyf857nU7Sv8c0WDk8
+GET /api/generate?dev_key=GH_KGxNfr7vdLyf857nU7Sv8c0WDk8
 ```
 
 Returns:
