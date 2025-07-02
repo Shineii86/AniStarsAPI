@@ -17,6 +17,21 @@
 
 ---
 
+## 📁 Project Structure
+
+```
+AniStarsAPI/
+├── api/
+│   ├── star.js          # Star/Unstar API
+│   ├── follow.js        # Follow/Unfollow API
+│   └── list.js          # List starred/followed
+├── index.html           # Basic frontend
+├── vercel.json          # Vercel config
+└── README.md            # You're reading it
+```
+
+---
+
 ## 🚀 API Endpoints
 
 ### ⭐ `/api/star`
